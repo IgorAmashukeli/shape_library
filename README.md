@@ -12,9 +12,9 @@
 
 ## Установка
 
-`git clone https://github.com/IgorAmashukeli/shape-library.git`
+`git clone https://github.com/IgorAmashukeli/shape_library.git`
 
-`cd shape-library`
+`cd shape_library`
 
 `pip install .`
 
@@ -37,6 +37,6 @@ print(t.is_rectangular())  # True
 
 ## Unit тесты
 
-В директории `shape-library/tests`
+В директории `shape_library/tests`
 
 `python test_main.py`
