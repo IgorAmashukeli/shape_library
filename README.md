@@ -12,4 +12,31 @@
 
 ## Установка
 
-Клонировать репозиторий и установить:
+`git clone https://github.com/IgorAmashukeli/shape-library.git`
+
+`cd shape-library`
+
+`pip install .`
+
+`cd ..`
+
+`touch main.py`
+
+В файле main.py вставьте:
+
+```python
+from shape_library import Circle, Triangle, Point
+c = Circle(5)
+print(c.area())  # ≈78.54
+t = Triangle(3, 4, 5)
+print(t.area())  # 6.0
+print(t.is_rectangular())  # True
+```
+
+`python main.py`
+
+## Unit тесты
+
+В директории `shape-library/tests`
+
+`python test_main.py`
